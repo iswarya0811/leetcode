@@ -1,6 +1,6 @@
 # [Java Date and Time](https://www.hackerrank.com/challenges/java-date-and-time/problem?isFullScreen=true)
 ## Easy
-<div class="challenge-body-html"><div class="challenge_problem_statement"><div class="msB challenge_problem_statement_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><p>The <a href="https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html" target="_blank">Calendar class</a> is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields such as YEAR, MONTH, DAY_OF_MONTH, HOUR, and so on, and for manipulating the calendar fields, such as getting the date of the next week.</p>
+<div class="challenge-body-html"><div class="challenge_problem_statement"><div class="msB challenge_problem_statement_body"><div class="hackdown-content"><svg style="display: none;"><defs id="MathJax_SVG_glyphs"></defs></svg><p>The <a href="https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html">Calendar class</a> is an abstract class that provides methods for converting between a specific instant in time and a set of calendar fields such as YEAR, MONTH, DAY_OF_MONTH, HOUR, and so on, and for manipulating the calendar fields, such as getting the date of the next week.</p>
 
 <hr>
 
