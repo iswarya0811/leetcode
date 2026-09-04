@@ -1,0 +1,26 @@
+class Solution:
+    def firstStableIndex(self, nums: list[int], k: int) -> int:
+        n = len(nums)
+        
+        pref_max = [0]*n
+        pref_max[0]=nums[0]
+        for i in range(1,n):
+            pref_max[i]= max(pref_max[i-1],nums[i])
+
+        suff_min = [0]*n
+        suff_min[n-1] = nums[n-1]
+        for i in range(n-2,-1,-1):
+            suff_min[i] = min(suff_min[i+1],nums[i])
+
+        for i in range(n):
+            res = pref_max[i]-suff_min[i]
+            if res<=k:
+                return i
+        return -1
+
+        
+        
+
+# Synced seamlessly with LeetHub Pro
+# Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
+# Get it here: https://chromewebstore.google.com/detail/bcilpkkbokcopmabingnndookdogmbna
